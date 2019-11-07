@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="70dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editTextScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="108dp"
+        android:layout_y="153dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:text="" android:hint="Score"/>
+
+    <Button
+        android:id="@+id/buttonInsert"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="252dp"
+        android:text="Insert" />
+
+    <TextView
+        android:id="@+id/textViewShow"
+        android:layout_width="244dp"
+        android:layout_height="48dp"
+        android:layout_x="66dp"
+        android:layout_y="363dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="252dp"
+        android:text="Select" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="298dp"
+        android:layout_y="253dp"
+        android:text="Clear" />
+</AbsoluteLayout>

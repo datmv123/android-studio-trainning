@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewShow"
+        android:layout_width="249dp"
+        android:layout_height="136dp"
+        android:layout_x="80dp"
+        android:layout_y="33dp"
+        android:text="" />
+
+    <SeekBar
+        android:id="@+id/seekBarColorRed"
+        android:layout_width="226dp"
+        android:layout_height="42dp"
+        android:layout_x="139dp"
+        android:layout_y="222dp"
+        android:max="255" />
+
+    <TextView
+        android:id="@+id/textViewColorRed"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_x="40dp"
+        android:layout_y="230dp"
+        android:gravity="center"
+        android:text="@string/labelColorRed" />
+
+    <SeekBar
+        android:id="@+id/seekBarColorGreen"
+        android:layout_width="226dp"
+        android:layout_height="42dp"
+        android:layout_x="142dp"
+        android:layout_y="294dp"
+        android:max="255" />
+
+    <TextView
+        android:id="@+id/textViewColorGreen"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_x="43dp"
+        android:layout_y="299dp"
+        android:gravity="center"
+        android:text="@string/labelColorGreen" />
+
+    <TextView
+        android:id="@+id/textViewColorBlue"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_x="41dp"
+        android:layout_y="382dp"
+        android:gravity="center"
+        android:text="@string/labelColorBlue" />
+
+    <SeekBar
+        android:id="@+id/seekBarColorBlue"
+        android:layout_width="226dp"
+        android:layout_height="42dp"
+        android:layout_x="142dp"
+        android:layout_y="373dp"
+        android:max="255" />
+
+</AbsoluteLayout>

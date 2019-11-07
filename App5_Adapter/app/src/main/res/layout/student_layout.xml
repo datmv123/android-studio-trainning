@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/imProfile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_x="10dp"
+        android:layout_y="0dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="161dp"
+        android:layout_height="40dp"
+        android:layout_x="108dp"
+        android:layout_y="2dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="161dp"
+        android:layout_height="32dp"
+        android:layout_x="109dp"
+        android:layout_y="44dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="305dp"
+        android:layout_y="14dp"
+        android:text="CAll" />
+</AbsoluteLayout>

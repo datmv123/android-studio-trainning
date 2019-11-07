@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="358dp"
+        android:layout_height="50dp"
+        android:layout_x="28dp"
+        android:layout_y="13dp" >
+
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listViewCustomers"
+        android:layout_width="match_parent"
+        android:layout_height="409dp"
+        android:layout_margin="20dp"
+        android:layout_x="0dp"
+        android:layout_y="137dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textViewTotalRecords"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_x="6dp"
+        android:layout_y="82dp"
+        android:padding="10dp"
+        android:text="Total records: 0"
+        android:textSize="20dp" />
+</AbsoluteLayout>
